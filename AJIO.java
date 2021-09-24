@@ -32,6 +32,7 @@ public class AJIO {
 			
 			System.out.println(brandName.getText());
 		}
+				
 		List<WebElement> bagNameList = driver.findElements(By.xpath("//div[@class = 'name']"));
 		System.out.println("The Bag Name List: "+bagNameList.size());
 		for(WebElement bagName : bagNameList) {
